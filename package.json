@@ -1,0 +1,31 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "hello world app",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomuwhu/basic.git"
+  },
+  "keywords": [
+    "helloworld"
+  ],
+  "author": "Dr. Németh Tamás",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomuwhu/basic/issues"
+  },
+  "homepage": "https://github.com/tomuwhu/basic#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.14",
+    "nodemon": "^1.17.3",
+    "vue": "^2.5.16",
+    "vue-server-renderer": "^2.5.16"
+  }
+}

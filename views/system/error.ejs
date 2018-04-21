@@ -1,0 +1,11 @@
+<html>
+  <%- include('header') -%>
+  <body>
+    <%- include('../menu') -%>
+    <div id="app" class="text-center">
+      <div class="alert alert-danger">Rendszerhiba: <%= message %> <%= error.status %></div>
+      <%= error.stack %>
+    </div>
+  </body>
+  <script src="vues/index.js"></script>
+</html>
