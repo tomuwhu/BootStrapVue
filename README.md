@@ -9,12 +9,12 @@ Hello world app.
 1. views/index.ejs
 ```html
 <div class="row">
-      <div class="col-lg-4 col-md-4">
-      </div>
-      <div class="col-lg-4 col-md-4">
-          <b-input @keyup.native.enter="send" v-model="im.tv"></b-input>
-      </div>
-      <div class="col-lg-4 col-md-4">
+      <div class="row">
+            <div class="col"></div>
+            <div class="col-lg3 col-md-5 col-sm-8 alert alert-primary">
+                <b-input @keyup.native.enter="send" v-model="im.tv"></b-input>
+            </div>
+            <div class="col"></div>
       </div>
 </div>
 ```
