@@ -1,12 +1,10 @@
 const express = require('express')
 const createError = require('http-errors')
 const ejs = require('ejs')
-const bodyParser = require('body-parser')
 const path = require('path')
 const app = express()
 const router = require('./router')
 app.use('/', router)
-app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname, 'public')))
 app.set('view engine', 'ejs')
 app.use( (req, res, next) => {
